@@ -70,7 +70,7 @@ Think of it as “the digital equivalent of emptying your junk drawer."
 
 ## 🛡 License
 This project is released under the MIT License.
-Use, modify, and share freely — just don’t blame it if your system runs too fast afterward.
+Use, modify, and share freely — just don’t blame it if your system runs too fast afterward (or not at all!).
 
 ## 💬 Contributing
 Issues and PRs are welcome!
