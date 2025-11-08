@@ -90,10 +90,78 @@ Built with 🥀 and a severe lack of storage space.
 ```mathematica
 === INTERACTIVE CLEANUP ===
 
-Delete developer caches? (y/n) y
+=== INTERACTIVE CLEANUP ===
+
+Delete developer caches and build artifacts (npm, pip, conda, docker, gradle, flutter, etc.)? (y/n) y
+
+--- Deleting developer caches ---
 Deleting C:\Users\notebook\.npm
 Deleting C:\Users\notebook\.docker
-Cleaning LM Studio (keeping history & settings)
+Deleting C:\Users\notebook\.gradle
+Deleting C:\Users\notebook\.flutter
+Deleting C:\Users\notebook\.m2
+Deleting C:\Users\notebook\.vs
+Cleaning LM Studio cache (keeping history & settings)
 Purging pip cache for C:\Users\notebook\miniconda3\python.exe
-...
+Purging pip cache for C:\Users\notebook\anaconda3\python.exe
+npm WARN using --force Recommended protections disabled.
+npm cache cleared.
+conda clean --all -y
+Will remove 2 index cache(s).
+Will remove 4 package cache(s).
+Proceed ([y]/n)? y
+Removed 6 cache(s).
+
+Removing node_modules folders
+Deleting C:\Users\notebook\Desktop\project-alpha\node_modules
+Deleting C:\Users\notebook\Desktop\webapp\node_modules
+Deleting C:\Users\notebook\src\archive\node_modules
+
+Clearing pip / conda / npm caches
+pip cache purge
+Files removed: 2,351
+
+--- Developer cleanup complete ---
+
+Clear Windows temp files and Prefetch? (y/n) y
+--- Deleting system temp files ---
+Removing C:\Users\notebook\AppData\Local\Temp\*
+Removing C:\Windows\Temp\*
+Removing C:\Windows\Prefetch\*
+Windows temporary files cleared successfully.
+
+Rebuild Windows Search index (delete old index)? (y/n) y
+--- Rebuilding Search index ---
+Stopping Windows Search service...
+The Windows Search service was stopped successfully.
+Deleting C:\ProgramData\Microsoft\Search\Data\
+Turn Search service back on after cleanup? (y/n) y
+Starting Windows Search service...
+The Windows Search service was started successfully.
+
+Clear browser caches (keep sessions/logins)? (y/n) y
+--- Cleaning browser caches ---
+
+Clearing Chromium cache: C:\Users\notebook\AppData\Local\Google\Chrome\User Data\Default\Cache
+Clearing Chromium cache: C:\Users\notebook\AppData\Local\Microsoft\Edge\User Data\Default\Cache
+Clearing Chromium cache: C:\Users\notebook\AppData\Local\BraveSoftware\Brave-Browser\User Data\Default\GPUCache
+Clearing Chromium cache: C:\Users\notebook\AppData\Local\Comet\User Data\Default\ShaderCache
+Clearing Chromium cache: C:\Users\notebook\AppData\Local\Incognition\User Data\Default\Media Cache
+
+Clearing Firefox cache: C:\Users\notebook\AppData\Mozilla\Firefox\Profiles\default-release
+Clearing Firefox cache: C:\Users\notebook\AppData\Mozilla\Firefox\Profiles\dev-edition
+Clearing Firefox cache: C:\Users\notebook\AppData\Mullvad Browser\Browser\TorBrowser\Data\Browser\profile.default
+Clearing Firefox cache: C:\Users\notebook\AppData\Tor Browser\Browser\TorBrowser\Data\Browser\profile.default
+
+--- Browser cache cleanup complete ---
+
 ✅ Cleanup finished. Restart is recommended.
+
+Summary:
+- Developer caches cleared: 17 folders
+- node_modules removed: 3 projects
+- Python pip caches cleared: 2 installs
+- Windows temp + prefetch cleaned
+- Search index rebuilt
+- Browser caches cleared (sessions preserved)
+Approximate space freed: 24.6 GB
