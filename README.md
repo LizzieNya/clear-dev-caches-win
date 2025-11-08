@@ -84,9 +84,9 @@ If you find this useful:
 🧩 Share improvements or feature requests
 Or contribute!
 
-Built with 🥀 and a severe lack of storage space.
+## Built with 🥀 and a severe lack of storage space.
 
-@@ 🧑‍💻 Example Output
+## 🧑‍💻 Example Output
 ```mathematica
 === INTERACTIVE CLEANUP ===
 
