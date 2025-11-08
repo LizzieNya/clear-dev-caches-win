@@ -90,8 +90,6 @@ Or contribute!
 ```mathematica
 === INTERACTIVE CLEANUP ===
 
-=== INTERACTIVE CLEANUP ===
-
 Delete developer caches and build artifacts (npm, pip, conda, docker, gradle, flutter, etc.)? (y/n) y
 
 --- Deleting developer caches ---
