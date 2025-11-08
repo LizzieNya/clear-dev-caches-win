@@ -86,8 +86,8 @@ Or contribute!
 
 ## Built with 🥀 and a severe lack of storage space.
 
-## 🧑‍💻 Example Output
-```mathematica
+  ## 🧑‍💻 Example Output
+  ```mathematica
 === INTERACTIVE CLEANUP ===
 
 Delete developer caches and build artifacts (npm, pip, conda, docker, gradle, flutter, etc.)? (y/n) y
