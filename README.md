@@ -52,16 +52,17 @@ What if cleans:
 | **Browsers**     | Wipes cache, GPU cache, shader cache for Chromium & Firefox-based browsers. |
 
 ## ⚠️ Safety Notes
--Make sure no browsers or IDEs are open while running the cleanup.
--Always close running containers or VMs before deleting Docker data.
--Everything removed will rebuild automatically when reopened.
--For peace of mind, create a restore point before running.
+- Make sure no browsers or IDEs are open while running the cleanup.
+
+- Always close running containers or VMs before deleting Docker data.
+- Everything removed will rebuild automatically when reopened.
+- For peace of mind, create a restore point before running.
 
 ## 🧭 Why This Exists
 If you’re a developer with:
-`Multiple Python installs,
--Half a dozen browsers,
--Endless toolchains like npm, conda, Docker, Flutter, etc.,
+- Multiple Python installs,
+- Half a dozen browsers,
+- Endless toolchains like npm, conda, Docker, Flutter, etc.,
 
 this script gives you a clean slate — without reinstalling anything.
 Think of it as “the digital equivalent of emptying your junk drawer."
