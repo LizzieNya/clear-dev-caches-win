@@ -8,16 +8,20 @@ A full-featured **PowerShell cleanup utility** for Windows that safely purges ju
 
 ✅ **Interactive prompts** – you choose what to clean (no accidental nuking).  
 ✅ **Safe by design** – preserves settings, credentials, logins, and history.  
+
 ✅ **Multi-tool developer cleanup:**
 - npm / node_modules
 - pip / conda / Python (detects all installs automatically)
 - Docker, Bun, Gradle, Flutter, VS / JetBrains IDEs
 - LM Studio (keeps chat history + settings)
+- 
 ✅ **System cleanup:**
 - Windows Temp, Prefetch, and optional Search Index rebuild
+- 
 ✅ **Browser cleanup (optional):**
 - Chrome, Edge, Brave, Firefox, Tor, Mullvad, Comet, Incognition, and others  
 - Clears cache only (sessions and profiles remain intact)
+- 
 ✅ **Readable, modular PowerShell code**  
 ✅ **No reinstalls, no registry edits, no unsafe operations**
 
